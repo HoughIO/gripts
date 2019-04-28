@@ -1,0 +1,9 @@
+[submodule "readme"]
+	path = readme
+	url = git@github.com:HoughIO/readme.git
+[submodule "slack-cli"]
+	path = slack-cli
+	url = git@github.com:rockymadden/slack-cli.git
+[submodule "spinner"]
+	path = spinner
+	url = git@github.com:HoughIO/spinner.git
