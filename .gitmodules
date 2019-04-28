@@ -7,3 +7,6 @@
 [submodule "spinner"]
 	path = spinner
 	url = git@github.com:HoughIO/spinner.git
+[submodule "emojify"]
+	path = emojify
+	url = git@github.com:mrowa44/emojify.git
