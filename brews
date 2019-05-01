@@ -107,3 +107,5 @@ brew install yarn
 brew install youtube-dl
 brew install yq
 brew install zimg
+brew tap nektos/tap && brew install nektos/tap/act
+
