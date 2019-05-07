@@ -10,3 +10,6 @@
 [submodule "emojify"]
 	path = emojify
 	url = git@github.com:mrowa44/emojify.git
+[submodule ".yadm-project"]
+	path = .yadm-project
+	url = https://github.com/TheLocehiliosan/yadm.git
