@@ -1,3 +1,4 @@
+export CLICOLOR=true
 export LSCOLORS=exfxcxdxbxegedabagacad
 export SLACK_CLI_TOKEN='TOKEN'
 alias ll="ls -al"
@@ -29,11 +30,6 @@ upper () {
 
 source ~/.git-completion.bash
 [ -f /usr/local/etc/bash_completion ] && . /usr/local/etc/bash_completion
-
-#NVM rc
-export NVM_DIR="$HOME/.nvm"
-[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
-[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 
 
 # get current branch in git repo
@@ -83,5 +79,17 @@ function parse_git_dirty {
 	fi
 }
 
+export PATH="/Users/GormWho/.gem/ruby/2.0.0/bin"
+
+# Add RVM to PATH for scripting. Make sure this is the last PATH variable change.
+
+# Add RVM to PATH for scripting. Make sure this is the last PATH variable change.
+export PATH="$PATH:$HOME/.rvm/bin"
+
+
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+
 export PS1="\[\e[31m\]\u\[\e[m\]\[\e[33;40m\]@\[\e[m\]\[\e[33m\]\W\[\e[m\]\[\e[36m\]\`parse_git_branch\`\[\e[m\] "
-export PATH=/Users/gorm/.nvm/versions/node/v10.15.1/bin:/Users/gorm/Knotel/mono/tools/knot/bin2:/Users/gorm/Library/Python/3.7/bin:/Users/gorm/.nvm/versions/node/v10.15.1/bin:/Users/gorm/Knotel/mono/tools/knot/bin2:/Users/gorm/Library/Python/3.7/bin:/Users/gorm/.nvm/versions/node/v10.15.1/bin:/Users/gorm/Knotel/mono/tools/knot/bin2:/Users/gorm/Library/Python/3.7/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/gorm/Knotel/mono/tools/knot/bin2:/Users/gorm/Library/Python/3.7/bin:/Users/gorm/.nvm/versions/node/v10.15.1/bin:/Users/gorm/Personal/gripts/readme:/Users/gorm/Personal/gripts/spinner:/users/gorm/Personal/gripts/slack-cli/src:/users/gorm/bin
+export PATH=/Users/GormWho/Knotel/mono/tools/knot/bin2:/Users/GormWho/Library/Python/3.7/bin:/Users/GormWho/.nvm/versions/node/v10.15.1/bin:/Users/GormWho/Knotel/mono/tools/knot/bin2:/Users/GormWho/Library/Python/3.7/bin:/Users/GormWho/.nvm/versions/node/v10.15.1/bin:/Users/GormWho/Knotel/mono/tools/knot/bin2:/Users/GormWho/Library/Python/3.7/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/GormWho/Knotel/mono/tools/knot/bin2:/Users/GormWho/Library/Python/3.7/bin:/Users/GormWho/.nvm/versions/node/v10.15.1/bin:/Users/GormWho/Personal/gripts/readme:/Users/GormWho/Personal/gripts/spinner:/users/GormWho/Personal/gripts/slack-cli/src:/users/GormWho/bin:/Users/GormWho/Personal/gripts/.yadm-project
