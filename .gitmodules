@@ -15,4 +15,4 @@
 	url = https://github.com/TheLocehiliosan/yadm.git
 [submodule "dotfiles"]
 	path = dotfiles
-	url = https://github.com/HoughIO/dotfiles.git
+	url = git@github.com:HoughIO/dotfiles.git
