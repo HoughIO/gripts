@@ -13,3 +13,6 @@
 [submodule ".yadm-project"]
 	path = .yadm-project
 	url = https://github.com/TheLocehiliosan/yadm.git
+[submodule "dotfiles"]
+	path = dotfiles
+	url = git@github.com:HoughIO/dotfiles.git
