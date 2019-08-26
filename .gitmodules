@@ -13,6 +13,6 @@
 [submodule ".yadm-project"]
 	path = .yadm-project
 	url = https://github.com/TheLocehiliosan/yadm.git
-[submodule "dotfiles/.vim/bundle/Vundle.vim"]
-	path = dotfiles/.vim/bundle/Vundle.vim
-	url = https://github.com/VundleVim/Vundle.vim.git
+[submodule "dotfiles"]
+	path = dotfiles
+	url = https://github.com/HoughIO/dotfiles.git
